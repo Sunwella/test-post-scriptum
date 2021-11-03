@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: block;
+}
+
+.additional {
+    display: none;
+
+}
+
+.background-red {
+    background-color: #CE005B;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0 gray;
+    background-color: white;
+}
+
+.menu {
+    margin-left: 37px;
+}
+
+.home,
+.link {
+    width: 40px;
+}
+
+.home {
+    margin-right: 10px;
+}
+
+.logo {
+    width: 95px;
+}
+
+.background {
+    position: absolute;
+    width: 60%;
+    left: 40%;
+}
+
+.slider {
+    display: inline;
+    position: absolute;
+    top: 274px;
+    margin: 0 37px;
+    overflow: hidden;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 24px;
+}
+
+.description {
+    height: fit-content;
+    font-family: sans-serif;
+    padding: 20px;
+    color: #CE005B;
+    border: 1px solid #CE005B;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.dots {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.dot {
+    background-image: url("img/dot.png");
+    background-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.dot-active {
+    background-image: url("img/active-dot.png");
+    background-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.cube {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+}
+
+.additional-info {
+    position: absolute;
+    background: white;
+    width: 100%;
+    bottom: 0;
+    padding: 44px 36px;
+    font-family: sans-serif;
+    color: #5E6C78;
+}
+
+.close {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 48px;
+}
+
+.chart {
+    width: 688px;
+    height: 317px;
+}
